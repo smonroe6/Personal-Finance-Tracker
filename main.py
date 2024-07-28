@@ -15,4 +15,4 @@ class CSV:
             df.to_csv(cls.CSV_FILE, index=False)
 
 
-CSV.initialize_csv
+CSV.initialize_csv()
